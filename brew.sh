@@ -136,11 +136,15 @@ brew link libxslt --force
 brew install heroku-toolbelt
 heroku update
 
+brew install pbcopy
+brew install watchman
+
 # Core casks
 brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="~/Applications" iterm2
 brew cask install --appdir="~/Applications" java
 brew cask install --appdir="~/Applications" xquartz
+brew cask install --appdir="~/Applications" teamviewer
 
 # Development tool casks
 brew cask install --appdir="/Applications" sublime-text
